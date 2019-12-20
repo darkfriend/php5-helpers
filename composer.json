@@ -1,8 +1,8 @@
 {
     "name": "darkfriend/php5-helpers",
     "type": "library",
-    "description": "PHP5-helper classes for developer",
-    "keywords": ["dev","helpers","darkfriend","debug","string","development","array","php5","php"],
+    "description": "PHP5 classes helpers for developer",
+    "keywords": ["dev","debug","curl","string","helper","darkfriend","development","php5","php"],
     "homepage": "https://github.com/darkfriend/php5-helpers",
     "authors": [
         {
@@ -11,13 +11,11 @@
         }
     ],
     "require": {
-        "php":">=5.6"
-    },
-    "autoload":{
-        "classmap":[
-            "./DebugHelper.php",
-            "./StringHelper.php",
-            "./ArrayHelper.php"
-        ]
+        "php":">=5.4",
+        "darkfriend/php5-array": "^1.0",
+        "darkfriend/php5-curl": "^1.0",
+        "darkfriend/php5-debug": "^1.0",
+        "darkfriend/php5-string": "^1.0",
+        "darkfriend/php5-type": "^1.0"
     }
 }
