@@ -7,3 +7,7 @@
 * [ArrayHelper](https://github.com/darkfriend/php5-array) - полезные методы при работе с массивами
 * [StringHelper](https://github.com/darkfriend/php5-string) - полезные методы при работе со строками
 * [TypeHelper](https://github.com/darkfriend/php5-type) - полезные методы для строгой тепизации
+* [Xml](https://github.com/darkfriend/php5-xml) - полезные методы для работы с XML
+* **Json** - полезные методы для работы с JSON
+* **Request** - полезные методы для работы с request
+* **Response** - полезные методы для работы с response
