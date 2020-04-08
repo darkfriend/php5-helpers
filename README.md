@@ -1,5 +1,7 @@
 # PHP5-Helpers - классы хелперы, которые часто бывают полезны в разработке
 
+``composer require darkfriend/php5-helpers``
+
 **Структура:**
 
 * [CurlHelper](https://github.com/darkfriend/php5-curl) - очень упрощает работу с CURL
