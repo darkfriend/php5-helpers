@@ -26,7 +26,7 @@ class Json
         $res = \json_encode($data, $params['options']);
 
         if(!static::checkException($params)) {
-            return array();
+            return $res;
         }
 
         return $res;
@@ -43,7 +43,7 @@ class Json
         $res = \json_decode($data, true);
 
         if(!static::checkException()) {
-            return array();
+            return $res;
         }
 
         return $res;
